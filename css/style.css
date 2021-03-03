@@ -1,4 +1,4 @@
-tml,
+html,
 body {
 	height: 100%;
 	font-family: 'Raleway', sans-serif;
@@ -6,12 +6,7 @@ body {
 	font-smoothing: antialiased;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	font-weight: 600;
 	color: #474747;
@@ -46,4 +41,48 @@ p {
 	color: #878787;
 	line-height: 2.2;
 	font-weight: 500;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+}
+
+::-ms-input-placeholder {
+	font-style: italic;
+}
+
+:-ms-input-placeholder {
+	font-style: italic;
+}
+
+::placeholder {
+	font-style: italic;
+}
+
+a:hover {
+	color: #d82a4e;
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin: 0;
 }
